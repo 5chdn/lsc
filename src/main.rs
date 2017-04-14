@@ -1,3 +1,25 @@
+extern crate cursive;
+
+use std::env;
+use cursive::Cursive;
+use cursive::views::{Dialog, TextView};
+
+/// lsc main entry point
 fn main() {
-    println!("Hello, world!");
+
+  // always print backtrace on panic
+  env::set_var("RUST_BACKTRACE", "1");
+
+  // initialize cursive application root
+  let mut siv = Cursive::new();
+
+  // add hello-world dialog with quit button
+  siv.add_layer(
+    Dialog::around(
+      TextView::new("hello, world!1")
+    ).title("lsc").button("ok", |s| s.quit())
+  );
+
+  // run the cursive event loop
+  siv.run();
 }
