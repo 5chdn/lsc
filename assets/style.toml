@@ -1,1 +1,11 @@
-shadow = true
+# lsc theme
+
+shadow  = true
+borders = "outset"
+
+[colors]
+
+  background = "green"
+  view       = "orange"
+  primary    = "orange"
+  highlight  = "orange"
