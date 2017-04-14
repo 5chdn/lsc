@@ -10,5 +10,3 @@ A senseless tool for coloring terminals and tty. (c) 2017 [Afri 5chdn](https://5
 [![license](https://img.shields.io/github/license/5chdn/lsc.svg)](LICENSE)
 [![GitHub followers](https://img.shields.io/github/followers/5chdn.svg?style=social&label=Follow)](https://github.com/5chdn)
 [![Twitter Follow](https://img.shields.io/twitter/follow/5chdn.svg?style=social&label=Follow)](https://twitter.com/5chdn)
-
-
