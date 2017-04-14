@@ -13,6 +13,9 @@ fn main() {
   // initialize cursive application root
   let mut siv = Cursive::new();
 
+  // custom tty style sheet
+  let _ = siv.load_theme_file("assets/style.toml");
+
   // add hello-world dialog with quit button
   siv.add_layer(
     Dialog::around(
