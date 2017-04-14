@@ -14,7 +14,7 @@ fn main() {
   let mut siv = Cursive::new();
 
   // custom tty style sheet
-  let _ = siv.load_theme_file("assets/style.toml");
+  let _ = siv.load_theme_file("ast/style.toml");
 
   // quit on q key press
   siv.add_global_callback('q', |s| s.quit());
