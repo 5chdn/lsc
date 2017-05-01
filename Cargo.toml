@@ -1,7 +1,9 @@
 [package]
 name = "lsc"
 version = "0.0.2"
-authors = ["afri 5chdn <afri@5chdn.co>"]
+authors = ["Afri 5chdn <afri@5chdn.co>"]
 
 [dependencies]
 termion = "1.3.0"
+termsize = "0.1.4"
+rand = "0.3.15"
